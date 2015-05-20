@@ -17,11 +17,6 @@ public class ComidaTest {
 	}
 
 	@Test
-	public void testIsEspecial() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testGetFila() {
 		assertEquals(com2.getFila(), 25);
 		assertEquals(com.getFila(), 5);

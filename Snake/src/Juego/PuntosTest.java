@@ -10,18 +10,28 @@ public class PuntosTest {
 	Puntos p2=new Puntos();
 	@Test
 	public void testPuntos() {
+		p=new Puntos();
+		p2=new Puntos();
 		assertEquals(p.getClass(), Puntos.class);
 		assertEquals(p2.getClass(), Puntos.class);
 	}
 
 	@Test
 	public void testGetScore() {
-		fail("Not yet implemented");
+		assertEquals(p.getScore(),0);
+		assertEquals(p2.getScore(),0);
 	}
 
 	@Test
 	public void testSetScore() {
-		fail("Not yet implemented");
+		p.setScore(10);
+		p2.setScore(5);
+		assertEquals(p.getScore(),10);
+		assertEquals(p2.getScore(),5);
+		p.setScore(5);
+		p2.setScore(10);
+		assertEquals(p.getScore(),15);
+		assertEquals(p2.getScore(),20); 
 	}
 
 	@Test
