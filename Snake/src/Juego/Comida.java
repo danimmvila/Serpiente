@@ -2,6 +2,7 @@ package Juego;
 
 public class Comida {
 
+	
 	private int fila;
 	private int col;
 	private boolean especial;
