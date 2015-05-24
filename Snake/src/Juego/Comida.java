@@ -6,8 +6,9 @@ public class Comida {
 	private int col;
 	private boolean especial;
 
-	/** 
-	 * Creación de comida para la serpiente. 
+	/**
+	 * Creación de comida para la serpiente.
+	 * 
 	 * @param fila
 	 * @param col
 	 * */
@@ -21,7 +22,7 @@ public class Comida {
 			especial = false;
 		}
 	}
-	
+
 	/**
 	 * @return booleano si es especial o no.
 	 */
@@ -36,7 +37,7 @@ public class Comida {
 	public int getFila() {
 		return fila;
 	}
-	
+
 	/**
 	 * 
 	 * @return numero de columna.
