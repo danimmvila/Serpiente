@@ -42,13 +42,14 @@ public class Tabla extends JPanel {
 		init();
 	}
 
-	/** 
-	 * Inicializacion de los componentes del panel. 
+	/**
+	 * Inicializacion de los componentes del panel.
 	 */
 	public void init() {
 		serpiente = new Serpiente(this);
 		puntos.resetScore();
 		newFood();
+		setGameOver(false);
 		MyKeyAdapter keyAdapter = new MyKeyAdapter();
 		addKeyListener(keyAdapter);
 		run();
@@ -82,12 +83,14 @@ public class Tabla extends JPanel {
 
 	/**
 	 * Dibuja un cuadrado en el panel de juego.
+	 * 
 	 * @param g
 	 * @param row
 	 * @param col
 	 * @param square
 	 */
-	private void pintarCuadrado(Graphics g, int row, int col, TiposCuadrados square) {
+	private void pintarCuadrado(Graphics g, int row, int col,
+			TiposCuadrados square) {
 		Color colors[] = { Color.gray, Color.BLACK, Color.green, Color.red };
 		int x = col * anchoCuadrado();
 		int y = row * altoCuadrado();
@@ -112,26 +115,30 @@ public class Tabla extends JPanel {
 
 	/**
 	 * Dibuja la serpiente.
+	 * 
 	 * @param g
 	 */
 	public void pintarSerpiente(Graphics g) {
-		pintarCuadrado(g, serpiente.getCuerpo().get(0).getRow(), serpiente.getCuerpo().get(0)
-				.getCol(), TiposCuadrados.snakeHead);
+		pintarCuadrado(g, serpiente.getCuerpo().get(0).getRow(), serpiente
+				.getCuerpo().get(0).getCol(), TiposCuadrados.snakeHead);
 		for (int i = 1; i < serpiente.getCuerpo().size(); i++) {
-			pintarCuadrado(g, serpiente.getCuerpo().get(i).getRow(),
-					serpiente.getCuerpo().get(i).getCol(), TiposCuadrados.snakeBody);
+			pintarCuadrado(g, serpiente.getCuerpo().get(i).getRow(), serpiente
+					.getCuerpo().get(i).getCol(), TiposCuadrados.snakeBody);
 		}
 	}
 
 	/**
 	 * Dibuja la comida.
+	 * 
 	 * @param g
 	 */
 	public void pintarComida(Graphics g) {
 		if (comida.isEspecial()) {
-			pintarCuadrado(g, comida.getFila(), comida.getCol(), TiposCuadrados.specialFoot);
+			pintarCuadrado(g, comida.getFila(), comida.getCol(),
+					TiposCuadrados.specialFoot);
 		} else {
-			pintarCuadrado(g, comida.getFila(), comida.getCol(), TiposCuadrados.food);
+			pintarCuadrado(g, comida.getFila(), comida.getCol(),
+					TiposCuadrados.food);
 		}
 	}
 
@@ -210,6 +217,10 @@ public class Tabla extends JPanel {
 		return gameOver;
 	}
 
+	public Comida getComida() {
+		return comida;
+	}
+
 	/**
 	 * @param gameover
 	 */
@@ -243,6 +254,10 @@ public class Tabla extends JPanel {
 		if (response == 1) {
 			System.exit(0);
 		}
+	}
+
+	public Serpiente getSerpiente() {
+		return serpiente;
 	}
 
 	@Override

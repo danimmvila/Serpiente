@@ -11,68 +11,45 @@ public class TablaTest {
 
 	@Test
 	public void testTabla() {
-		s = new Puntos();
-		t = new Tabla(s);
+		assertEquals(t.getClass(), Tabla.class);
 	}
 
 	@Test
 	public void testInit() {
 		t.init();
-	}
-
-	@Test
-	public void testPintarSerpiente() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testPintarComida() {
-		fail("Not yet implemented");
+		assertEquals(t.getSerpiente().getClass(), Serpiente.class);
+		assertEquals(s.getScore(), 0);
 	}
 
 	@Test
 	public void testNewFood() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testRun() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testIsSerpiente() {
-		fail("Not yet implemented");
+		assertEquals(t.getComida().getClass(), Comida.class);
 	}
 
 	@Test
 	public void testIsFood() {
-		fail("Not yet implemented");
+		assertEquals(
+				t.isFood(t.getComida().getFila(), t.getComida().getCol()),
+				true);
+	}
+
+	@Test
+	public void testIsSerpiente() {
+		assertEquals(
+				t.isSerpiente(t.getComida().getFila(), t.getComida().getCol()),
+				false);
 	}
 
 	@Test
 	public void testIsGameOver() {
-		fail("Not yet implemented");
+		assertEquals(t.isGameOver(), false);
 	}
 
 	@Test
 	public void testSetGameOver() {
-		fail("Not yet implemented");
+		t.setGameOver(true);
+		assertEquals(t.isGameOver(), true);
+		t.init();
+		assertEquals(t.isGameOver(), false);
 	}
-
-	@Test
-	public void testIncrementScore() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGameOver() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testPaintComponentGraphics() {
-		fail("Not yet implemented");
-	}
-
 }
