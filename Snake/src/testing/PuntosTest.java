@@ -32,15 +32,13 @@ public class PuntosTest {
 	@Test
 	public void testSetScore() {
 		p.setScore(10);
-		p2.setScore(5);
+		p2.setScore(5); 
 		assertEquals(p.getScore(), 10);
 		assertEquals(p2.getScore(), 5);
-		assertEquals(p.getScore(),10);
-		assertEquals(p2.getScore(),5);
 		p.setScore(5);
 		p2.setScore(10);
 		assertEquals(p.getScore(),15);
-		assertEquals(p2.getScore(),20);
+		assertEquals(p2.getScore(),15);
 	}
 
 	@Test
