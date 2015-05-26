@@ -1,9 +1,15 @@
-package Juego;
+package testing;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import Juego.Direccion;
+import Juego.Nodo;
+import Juego.Puntos;
+import Juego.Serpiente;
+import Juego.Tabla;
 
 public class SerpienteTest {
 

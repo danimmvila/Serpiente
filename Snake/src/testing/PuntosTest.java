@@ -1,8 +1,10 @@
-package Juego;
+package testing;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import Juego.Puntos;
 
 public class PuntosTest {
 

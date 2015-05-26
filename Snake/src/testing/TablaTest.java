@@ -1,8 +1,13 @@
-package Juego;
+package testing;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import Juego.Comida;
+import Juego.Puntos;
+import Juego.Serpiente;
+import Juego.Tabla;
 
 public class TablaTest {
 
