@@ -13,6 +13,8 @@ import javax.swing.Timer;
 
 public class Tabla extends JPanel {
 
+	
+	
 	/**
 	 * 
 	 */
