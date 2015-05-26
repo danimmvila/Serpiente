@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../img/clover.ico" />
+
+    <link rel="stylesheet" href="../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../style.css');
+        @import url('../tree.css');
+        
+    </style>
+
+    <script src="../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../clover-tree.js" type="text/javascript"></script>
+    <script src="../clover.js" type="text/javascript"></script>
+    <script src="../cloud.js" type="text/javascript"></script>
+    <script src="../help.js" type="text/javascript"></script>
+    <script src="../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="../sorttable.js" type="text/javascript"></script>
+    <script src="../utils.js" type="text/javascript"></script>
+
+            <title>Snake Coverage Report</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        Snake Coverage Report
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                <div class="packages-tree-wrapper" data-root-relative="../" data-package-name="Juego">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../dashboard.html"> Project Clover database mié may 27 2015 01:10:23 CEST</a></li>
+     <li><a href="test-pkg-summary.html">Package Juego</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+            
+        Class PuntosTest
+    </h1>
+    <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>Evaluation License</strong>
+        </p>
+        <p>
+            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
+        </p>
+    </div>
+
+
+ 
+<div class="aui-tabs horizontal-tabs" id="tabs-file">
+    <ul class="tabs-menu">
+        <li class="menu-item">
+            <a href="PuntosTest.html"><strong>Source file</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="#tabs-file-test-results"><strong>Test results</strong></a>
+        </li>
+    </ul>
+    <div class="tabs-pane aui-tabs-pane-100-pcnt active-pane" id="tabs-file-test-results">
+        <div>&#160;</div>
+
+
+
+
+<table id="testClassSummaryTable" class="aui">
+<thead>
+    <tr>
+        <th width="40%"><label>Class</label></th>
+        <th width="10%"><label title="Total number of tests (or test iterations) executed.">Tests</label></th>
+        <th width="10%"><label title="Number of failed tests">Fail</label></th>
+        <th width="10%"><label title="Number of test errors">Error</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="20%"><label>% Tests Success</label></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>PuntosTest</td>
+        <td class="testPasses"><span class="sortValue">20</span>20</td>
+<td class="testFailures"><span class="sortValue">3</span>3</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td>0,167</td>
+        <td class="align-middle">
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">0.85</span>85%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="85% of tests passed&lt;br/&gt;15% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 85%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+</tbody>
+</table>
+
+<div>&#160;</div>
+
+<table id="testClassTestsTable" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th width="40%">
+            <label title="Tests (or test iterations) which were executed.">Tests</label>
+        </th>
+        <th width="10%"><label>Started</label></th>
+        <th width="10%"><label>Status</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="30%"><label>Message</label></th>
+    </tr>
+</thead>
+<tbody>
+
+
+<tr>
+    <td><span class="sortValue">PuntosTest.testSetScore</span><a href="PuntosTest_testSetScore_3b.html">PuntosTest.testSetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432577642078</span>25 may 20:14:02</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.019</span>0,019</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;15&gt;&#160;but&#160;was:&lt;20&gt;</span>
+        <span class="expand" id="togglebut1" onclick="toggleNodeExpansion('togglebut1', 'msgc1', 'msge1');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc1">expected:&lt;15&gt;&#160;but&#160;was:&lt;20&gt;</div>
+        <div class="errorMessage" id="msge1" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;15&gt; but was:&lt;20&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/PuntosTest.html?line=34#src-34">Juego.PuntosTest.testSetScore(PuntosTest.java:34)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testSetScore</span><a href="PuntosTest_testSetScore_48.html">PuntosTest.testSetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581440326</span>25 may 21:17:20</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.013</span>0,013</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;35&gt;&#160;but&#160;was:&lt;25&gt;</span>
+        <span class="expand" id="togglebut2" onclick="toggleNodeExpansion('togglebut2', 'msgc2', 'msge2');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc2">expected:&lt;35&gt;&#160;but&#160;was:&lt;25&gt;</div>
+        <div class="errorMessage" id="msge2" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;35&gt; but was:&lt;25&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/PuntosTest.html?line=33#src-33">Juego.PuntosTest.testSetScore(PuntosTest.java:33)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testSetScore</span><a href="PuntosTest_testSetScore_3f.html">PuntosTest.testSetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581827956</span>25 may 21:23:47</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.008</span>0,008</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;25&gt;&#160;but&#160;was:&lt;15&gt;</span>
+        <span class="expand" id="togglebut3" onclick="toggleNodeExpansion('togglebut3', 'msgc3', 'msge3');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc3">expected:&lt;25&gt;&#160;but&#160;was:&lt;15&gt;</div>
+        <div class="errorMessage" id="msge3" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;25&gt; but was:&lt;15&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/PuntosTest.html?line=34#src-34">Juego.PuntosTest.testSetScore(PuntosTest.java:34)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testResetScore</span><a href="PuntosTest_testResetScore_2t.html">PuntosTest.testResetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581910769</span>25 may 21:25:10</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testGetScore</span><a href="PuntosTest_testGetScore_4g.html">PuntosTest.testGetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581440285</span>25 may 21:17:20</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testResetScore</span><a href="PuntosTest_testResetScore_2g.html">PuntosTest.testResetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581705960</span>25 may 21:21:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testGetScore</span><a href="PuntosTest_testGetScore_u.html">PuntosTest.testGetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432577642037</span>25 may 20:14:02</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.014</span>0,014</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testPuntos</span><a href="PuntosTest_testPuntos_1.html">PuntosTest.testPuntos</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581827941</span>25 may 21:23:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.007</span>0,007</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testPuntos</span><a href="PuntosTest_testPuntos_3n.html">PuntosTest.testPuntos</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581705946</span>25 may 21:21:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.009</span>0,009</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testSetScore</span><a href="PuntosTest_testSetScore_l.html">PuntosTest.testSetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581705965</span>25 may 21:21:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.008</span>0,008</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testSetScore</span><a href="PuntosTest_testSetScore_2e.html">PuntosTest.testSetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581910773</span>25 may 21:25:10</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.005</span>0,005</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testPuntos</span><a href="PuntosTest_testPuntos_1e.html">PuntosTest.testPuntos</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581910754</span>25 may 21:25:10</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.009</span>0,009</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testResetScore</span><a href="PuntosTest_testResetScore_1u.html">PuntosTest.testResetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581827953</span>25 may 21:23:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testPuntos</span><a href="PuntosTest_testPuntos_8.html">PuntosTest.testPuntos</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432577642061</span>25 may 20:14:02</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.008</span>0,008</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testGetScore</span><a href="PuntosTest_testGetScore_3k.html">PuntosTest.testGetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581910730</span>25 may 21:25:10</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testResetScore</span><a href="PuntosTest_testResetScore_r.html">PuntosTest.testResetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581440323</span>25 may 21:17:20</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testPuntos</span><a href="PuntosTest_testPuntos_23.html">PuntosTest.testPuntos</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581440308</span>25 may 21:17:20</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.009</span>0,009</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testGetScore</span><a href="PuntosTest_testGetScore_p.html">PuntosTest.testGetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581827917</span>25 may 21:23:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.014</span>0,014</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testResetScore</span><a href="PuntosTest_testResetScore_17.html">PuntosTest.testResetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432577642075</span>25 may 20:14:02</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">PuntosTest.testGetScore</span><a href="PuntosTest_testGetScore_1z.html">PuntosTest.testGetScore</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432581705923</span>25 may 21:21:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.013</span>0,013</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+
+    </tbody>
+</table>
+
+    </div> <!-- tabs-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.4
+                on mié may 27 2015 01:14:00 CEST using coverage data from mié may 27 2015 01:10:25 CEST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover Evaluation License registered to Clover Plugin. You have 21 day(s) before your license expires.</li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>

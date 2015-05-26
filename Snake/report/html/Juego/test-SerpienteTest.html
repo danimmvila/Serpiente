@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../img/clover.ico" />
+
+    <link rel="stylesheet" href="../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../style.css');
+        @import url('../tree.css');
+        
+    </style>
+
+    <script src="../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../clover-tree.js" type="text/javascript"></script>
+    <script src="../clover.js" type="text/javascript"></script>
+    <script src="../cloud.js" type="text/javascript"></script>
+    <script src="../help.js" type="text/javascript"></script>
+    <script src="../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="../sorttable.js" type="text/javascript"></script>
+    <script src="../utils.js" type="text/javascript"></script>
+
+            <title>Snake Coverage Report</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        Snake Coverage Report
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                <div class="packages-tree-wrapper" data-root-relative="../" data-package-name="Juego">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../dashboard.html"> Project Clover database mié may 27 2015 01:10:23 CEST</a></li>
+     <li><a href="test-pkg-summary.html">Package Juego</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+            
+        Class SerpienteTest
+    </h1>
+    <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>Evaluation License</strong>
+        </p>
+        <p>
+            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
+        </p>
+    </div>
+
+
+ 
+<div class="aui-tabs horizontal-tabs" id="tabs-file">
+    <ul class="tabs-menu">
+        <li class="menu-item">
+            <a href="SerpienteTest.html"><strong>Source file</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="#tabs-file-test-results"><strong>Test results</strong></a>
+        </li>
+    </ul>
+    <div class="tabs-pane aui-tabs-pane-100-pcnt active-pane" id="tabs-file-test-results">
+        <div>&#160;</div>
+
+
+
+
+<table id="testClassSummaryTable" class="aui">
+<thead>
+    <tr>
+        <th width="40%"><label>Class</label></th>
+        <th width="10%"><label title="Total number of tests (or test iterations) executed.">Tests</label></th>
+        <th width="10%"><label title="Number of failed tests">Fail</label></th>
+        <th width="10%"><label title="Number of test errors">Error</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="20%"><label>% Tests Success</label></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>SerpienteTest</td>
+        <td class="testPasses"><span class="sortValue">79</span>79</td>
+<td class="testFailures"><span class="sortValue">23</span>23</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td>0,302</td>
+        <td class="align-middle">
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">0.70886075</span>70,9%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="70,9% of tests passed&lt;br/&gt;29,1% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 70.9%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+</tbody>
+</table>
+
+<div>&#160;</div>
+
+<table id="testClassTestsTable" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th width="40%">
+            <label title="Tests (or test iterations) which were executed.">Tests</label>
+        </th>
+        <th width="10%"><label>Started</label></th>
+        <th width="10%"><label>Status</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="30%"><label>Message</label></th>
+    </tr>
+</thead>
+<tbody>
+
+
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_c.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597178228</span>26 may 01:39:38</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</span>
+        <span class="expand" id="togglebut1" onclick="toggleNodeExpansion('togglebut1', 'msgc1', 'msge1');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc1">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</div>
+        <div class="errorMessage" id="msge1" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;31&gt; but was:&lt;21&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_56.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432596909819</span>26 may 01:35:09</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</span>
+        <span class="expand" id="togglebut2" onclick="toggleNodeExpansion('togglebut2', 'msgc2', 'msge2');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc2">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</div>
+        <div class="errorMessage" id="msge2" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;31&gt; but was:&lt;21&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_27.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597152654</span>26 may 01:39:12</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut3" onclick="toggleNodeExpansion('togglebut3', 'msgc3', 'msge3');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc3">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge3" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_2x.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432596909763</span>26 may 01:35:09</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.018</span>0,018</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut4" onclick="toggleNodeExpansion('togglebut4', 'msgc4', 'msge4');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc4">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge4" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_1k.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597919405</span>26 may 01:51:59</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.003</span>0,003</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</span>
+        <span class="expand" id="togglebut5" onclick="toggleNodeExpansion('togglebut5', 'msgc5', 'msge5');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc5">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</div>
+        <div class="errorMessage" id="msge5" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;30&gt; but was:&lt;20&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=22#src-22">Juego.SerpienteTest.testAvance(SerpienteTest.java:22)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_2u.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597425289</span>26 may 01:43:45</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.018</span>0,018</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut6" onclick="toggleNodeExpansion('togglebut6', 'msgc6', 'msge6');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc6">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge6" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_3q.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597178236</span>26 may 01:39:38</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut7" onclick="toggleNodeExpansion('togglebut7', 'msgc7', 'msge7');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc7">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge7" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_5b.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597629766</span>26 may 01:47:09</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.003</span>0,003</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</span>
+        <span class="expand" id="togglebut8" onclick="toggleNodeExpansion('togglebut8', 'msgc8', 'msge8');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc8">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</div>
+        <div class="errorMessage" id="msge8" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;30&gt; but was:&lt;20&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=22#src-22">Juego.SerpienteTest.testAvance(SerpienteTest.java:22)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_4v.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598089543</span>26 may 01:54:49</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;20&gt;&#160;but&#160;was:&lt;21&gt;</span>
+        <span class="expand" id="togglebut9" onclick="toggleNodeExpansion('togglebut9', 'msgc9', 'msge9');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc9">expected:&lt;20&gt;&#160;but&#160;was:&lt;21&gt;</div>
+        <div class="errorMessage" id="msge9" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;20&gt; but was:&lt;21&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_3p.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597326261</span>26 may 01:42:06</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut10" onclick="toggleNodeExpansion('togglebut10', 'msgc10', 'msge10');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc10">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge10" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_x.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598033750</span>26 may 01:53:53</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</span>
+        <span class="expand" id="togglebut11" onclick="toggleNodeExpansion('togglebut11', 'msgc11', 'msge11');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc11">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</div>
+        <div class="errorMessage" id="msge11" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;30&gt; but was:&lt;20&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=22#src-22">Juego.SerpienteTest.testAvance(SerpienteTest.java:22)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_12.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597035838</span>26 may 01:37:15</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut12" onclick="toggleNodeExpansion('togglebut12', 'msgc12', 'msge12');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc12">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge12" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_6.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597035775</span>26 may 01:37:15</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.018</span>0,018</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut13" onclick="toggleNodeExpansion('togglebut13', 'msgc13', 'msge13');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc13">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge13" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_3m.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597326198</span>26 may 01:42:06</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.019</span>0,019</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut14" onclick="toggleNodeExpansion('togglebut14', 'msgc14', 'msge14');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc14">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge14" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_1o.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597425339</span>26 may 01:43:45</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</span>
+        <span class="expand" id="togglebut15" onclick="toggleNodeExpansion('togglebut15', 'msgc15', 'msge15');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc15">expected:&lt;30&gt;&#160;but&#160;was:&lt;20&gt;</div>
+        <div class="errorMessage" id="msge15" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;30&gt; but was:&lt;20&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=22#src-22">Juego.SerpienteTest.testAvance(SerpienteTest.java:22)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_29.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597178173</span>26 may 01:39:38</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.018</span>0,018</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut16" onclick="toggleNodeExpansion('togglebut16', 'msgc16', 'msge16');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc16">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge16" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_49.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598343540</span>26 may 01:59:03</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.003</span>0,003</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;20&gt;&#160;but&#160;was:&lt;19&gt;</span>
+        <span class="expand" id="togglebut17" onclick="toggleNodeExpansion('togglebut17', 'msgc17', 'msge17');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc17">expected:&lt;20&gt;&#160;but&#160;was:&lt;19&gt;</div>
+        <div class="errorMessage" id="msge17" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;20&gt; but was:&lt;19&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_2o.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597326254</span>26 may 01:42:06</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;30&gt;&#160;but&#160;was:&lt;0&gt;</span>
+        <span class="expand" id="togglebut18" onclick="toggleNodeExpansion('togglebut18', 'msgc18', 'msge18');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc18">expected:&lt;30&gt;&#160;but&#160;was:&lt;0&gt;</div>
+        <div class="errorMessage" id="msge18" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;30&gt; but was:&lt;0&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=22#src-22">Juego.SerpienteTest.testAvance(SerpienteTest.java:22)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_2j.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597035831</span>26 may 01:37:15</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</span>
+        <span class="expand" id="togglebut19" onclick="toggleNodeExpansion('togglebut19', 'msgc19', 'msge19');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc19">expected:&lt;31&gt;&#160;but&#160;was:&lt;21&gt;</div>
+        <div class="errorMessage" id="msge19" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;31&gt; but was:&lt;21&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_m.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432596909825</span>26 may 01:35:09</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut20" onclick="toggleNodeExpansion('togglebut20', 'msgc20', 'msge20');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc20">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge20" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_2h.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597425346</span>26 may 01:43:45</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut21" onclick="toggleNodeExpansion('togglebut21', 'msgc21', 'msge21');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc21">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge21" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=54#src-54">Juego.SerpienteTest.testSetDireccion(SerpienteTest.java:54)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_2f.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598267934</span>26 may 01:57:47</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;20&gt;&#160;but&#160;was:&lt;21&gt;</span>
+        <span class="expand" id="togglebut22" onclick="toggleNodeExpansion('togglebut22', 'msgc22', 'msge22');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc22">expected:&lt;20&gt;&#160;but&#160;was:&lt;21&gt;</div>
+        <div class="errorMessage" id="msge22" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;20&gt; but was:&lt;21&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:555)</div><div> at org.junit.Assert.assertEquals(Assert.java:542)</div><div>	at <a href="../Juego/SerpienteTest.html?line=25#src-25">Juego.SerpienteTest.testAvance(SerpienteTest.java:25)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_26.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597152595</span>26 may 01:39:12</td>
+    <td>      <span class="sortValue">3</span><span class="aui-lozenge aui-lozenge-error">FAIL</span>
+  </td>
+    <td><span class="sortValue">0.018</span>0,018</td>
+    <td style="width:50%">
+    <span class="sortValue">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</span>
+        <span class="expand" id="togglebut23" onclick="toggleNodeExpansion('togglebut23', 'msgc23', 'msge23');return false;">&#160;</span>
+        <div class="errorMessage" id="msgc23">expected:&lt;west&gt;&#160;but&#160;was:&lt;est&gt;</div>
+        <div class="errorMessage" id="msge23" style="display:none;"> <div>java.lang.AssertionError: expected:&lt;west&gt; but was:&lt;est&gt;</div><div> at org.junit.Assert.fail(Assert.java:88)</div><div> at org.junit.Assert.failNotEquals(Assert.java:743)</div><div> at org.junit.Assert.assertEquals(Assert.java:118)</div><div> at org.junit.Assert.assertEquals(Assert.java:144)</div><div>	at <a href="../Juego/SerpienteTest.html?line=45#src-45">Juego.SerpienteTest.testGetDireccion(SerpienteTest.java:45)</a></div><div> at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)</div><div> at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div><div> at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)</div><div> at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div><div> at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)</div><div> at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)</div><div> at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)</div><div> at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)</div><div> at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)</div><div> at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)</div><div> at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)</div><div> at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)</div><div> at org.junit.runners.ParentRunner.run(ParentRunner.java:309)</div><div> at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)</div><div> at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)</div><div> at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)</div></div>
+        </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_1w.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598267891</span>26 may 01:57:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_4u.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597919419</span>26 may 01:51:59</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_1n.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598033709</span>26 may 01:53:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_3l.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598033735</span>26 may 01:53:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_2s.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598108423</span>26 may 01:55:08</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_3z.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598108413</span>26 may 01:55:08</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_1g.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597629761</span>26 may 01:47:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_4.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598267917</span>26 may 01:57:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_5f.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598033767</span>26 may 01:53:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_w.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597629784</span>26 may 01:47:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_40.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597152634</span>26 may 01:39:12</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_45.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598489799</span>26 may 02:01:29</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_4e.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598089526</span>26 may 01:54:49</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_2k.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598536227</span>26 may 02:02:16</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_2q.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597425335</span>26 may 01:43:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_3s.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432596909801</span>26 may 01:35:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_4i.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598536216</span>26 may 02:02:16</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_4r.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597919366</span>26 may 01:51:59</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.016</span>0,016</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_z.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597178211</span>26 may 01:39:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_2d.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598108432</span>26 may 01:55:08</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_s.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598089558</span>26 may 01:54:49</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_15.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597425326</span>26 may 01:43:45</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_57.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597919401</span>26 may 01:51:59</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_4w.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597035815</span>26 may 01:37:15</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_0.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598378123</span>26 may 01:59:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.016</span>0,016</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_a.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597326248</span>26 may 01:42:06</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_3w.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597629750</span>26 may 01:47:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_1f.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598536231</span>26 may 02:02:16</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_13.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598267928</span>26 may 01:57:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_33.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598378160</span>26 may 01:59:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_h.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598267949</span>26 may 01:57:47</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_3h.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598489818</span>26 may 02:01:29</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_g.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598378150</span>26 may 01:59:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_25.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598378165</span>26 may 01:59:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_43.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432596909813</span>26 may 01:35:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_1b.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598089498</span>26 may 01:54:49</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.017</span>0,017</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_44.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598489774</span>26 may 02:01:29</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_2w.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598343557</span>26 may 01:59:03</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_4q.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597326238</span>26 may 01:42:06</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_10.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597919391</span>26 may 01:51:59</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_19.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597152645</span>26 may 01:39:12</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSerpiente</span><a href="SerpienteTest_testSerpiente_2r.html">SerpienteTest.testSerpiente</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598343524</span>26 may 01:59:03</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_1r.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598033745</span>26 may 01:53:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_2i.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598489822</span>26 may 02:01:29</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_n.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597178223</span>26 may 01:39:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_22.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597629724</span>26 may 01:47:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_18.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598536236</span>26 may 02:02:16</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_4y.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598108386</span>26 may 01:55:08</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.016</span>0,016</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_3j.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432597035825</span>26 may 01:37:15</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_3v.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598089538</span>26 may 01:54:49</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testSetDireccion</span><a href="SerpienteTest_testSetDireccion_2v.html">SerpienteTest.testSetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598378169</span>26 may 01:59:38</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_53.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598343493</span>26 may 01:59:03</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.017</span>0,017</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetDireccion</span><a href="SerpienteTest_testGetDireccion_1x.html">SerpienteTest.testGetDireccion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598536189</span>26 may 02:02:16</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.017</span>0,017</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_b.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598489812</span>26 may 02:01:29</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testGetCuerpo</span><a href="SerpienteTest_testGetCuerpo_o.html">SerpienteTest.testGetCuerpo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598343535</span>26 may 01:59:03</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">SerpienteTest.testAvance</span><a href="SerpienteTest_testAvance_4d.html">SerpienteTest.testAvance</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1432598108428</span>26 may 01:55:08</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+
+    </tbody>
+</table>
+
+    </div> <!-- tabs-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.4
+                on mié may 27 2015 01:14:00 CEST using coverage data from mié may 27 2015 01:10:25 CEST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover Evaluation License registered to Clover Plugin. You have 21 day(s) before your license expires.</li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>
