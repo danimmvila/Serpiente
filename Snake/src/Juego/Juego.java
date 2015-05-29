@@ -14,7 +14,7 @@ public class Juego extends JFrame {
 	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-
+	private Puntos scoreBoard;
 	/**
 	 * Launch the application.
 	 */
@@ -40,7 +40,7 @@ public class Juego extends JFrame {
 		setBackground(Color.BLACK);
 		getContentPane().setLayout(new BorderLayout());
 		setBounds(100, 100, 600, 440);
-		Puntos scoreBoard = new Puntos();
+		scoreBoard = new Puntos();
 		scoreBoard.setPreferredSize(new Dimension(600, 40));
 		contentPane = new Tabla(scoreBoard);
 		getContentPane().add(contentPane, BorderLayout.CENTER);
